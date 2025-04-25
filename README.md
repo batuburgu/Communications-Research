@@ -1,1 +1,34 @@
 # THz-Codes
+
+This repository contains simulation and analytical modeling codes for evaluating the performance of Terahertz (THz) wireless communication systems in terms of outage probability and bit error rate.
+
+These models are useful for understanding the limitations and capabilities of THz band communication, especially for applications in beyond 5G and 6G wireless networks.
+
+---
+
+## 📚 Papers Referenced
+
+The code implementations are derived from the following research works:
+
+1. 19.1 - A.-A. A. Boulogeorgos, E. N. Papasotiriou, and A. Alexiou, “Analytical performance assessment of THz wireless systems”, IEEE Access, vol. 7, pp. 11436–11453, 2019
+
+2. 18.1 - A.-A. A. Boulogeorgos, E. N. Papasotiriou, J. Kokkoniemi, J. Lehtomäki, A. Alexiou, and M. Juntti, ‘‘Performance evaluation of THz wireless systems operating in 275-400 GHz band,’’ in Proc. IEEE Veh. Technol. Conf. (VTC), Jun. 2018, pp. 1–5.
+
+3. 18.2 - J. Kokkoniemi, J. Lehtomäki, and M. Juntti, ‘‘Simplified molecular absorption loss model for 275–400 gigahertz frequency band,’’ in Proc. 12th Eur. Conf. Antennas Propag. (EuCAP), London, U.K., Apr. 2018, pp. 1–5.
+
+---
+
+## 🗂 File Naming Convention
+
+All code and figure files follow a structured naming convention to clearly indicate the content and source:
+fig{n1}x{n2}x{n3}_{paperID}
+- `fig{n}`: Indicates the figure numbers included. For example:
+- `{paperID}`: Corresponds to the paper from which the figures or simulations are derived:
+
+### 📌 Example
+
+A file named: fig1x3x5_18_2.m means it contains MATLAB code to generate Figures 1, 3, and 5 from the paper coded `18.2`.
+
+
+
+
