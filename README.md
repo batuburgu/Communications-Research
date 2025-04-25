@@ -1,8 +1,6 @@
 # THz-Codes
 
-This repository contains simulation and analytical modeling codes for evaluating the performance of Terahertz (THz) wireless communication systems in terms of outage probability and bit error rate.
-
-These models are useful for understanding the limitations and capabilities of THz band communication, especially for applications in beyond 5G and 6G wireless networks.
+This repository contains MATLAB-based simulation and analytical models for THz wireless communication systems, featuring outage probability and BER analysis under misalignment fading and molecular absorption loss.
 
 ---
 
