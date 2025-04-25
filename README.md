@@ -4,6 +4,20 @@ This repository contains MATLAB-based simulation and analytical models for THz w
 
 ---
 
+## 🗂 File Naming Convention
+
+All code and figure files follow a structured naming convention to clearly indicate the content and source and the structure is explained below:
+
+- **`fig{n}`**: Indicates the figure numbers included.  
+
+- **`{paperID}`**: Refers to the paper from which the figures or simulations are derived:  
+
+### 📌 Example
+
+A file named: **`fig1x3x5_18_2`** means it contains MATLAB code to generate Figures **1**, **3**, and **5** from the paper coded **18.2**.
+
+---
+
 ## 📚 Papers Referenced
 
 The code implementations are derived from the following research works:
@@ -16,17 +30,7 @@ The code implementations are derived from the following research works:
 
 ---
 
-## 🗂 File Naming Convention
 
-All code and figure files follow a structured naming convention to clearly indicate the content and source and the structure is explained below:
-
-- **`fig{n}`**: Indicates the figure numbers included.  
-
-- **`{paperID}`**: Refers to the paper from which the figures or simulations are derived:  
-
-### 📌 Example
-
-A file named: **`fig1x3x5_18_2`** means it contains MATLAB code to generate Figures **1**, **3**, and **5** from the paper coded **18.2**.
 
 
 
