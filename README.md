@@ -20,15 +20,15 @@ The code implementations are derived from the following research works:
 
 ## 🗂 File Naming Convention
 
-All code and figure files follow a structured naming convention to clearly indicate the content and source:
-fig{n1}x{n2}x{n3}_{paperID}
-- `fig{n}`: Indicates the figure numbers included. For example:
-- `{paperID}`: Corresponds to the paper from which the figures or simulations are derived:
+All code and figure files follow a structured naming convention to clearly indicate the content and source and the structure is explained below:
+
+- **`fig{n}`**: Indicates the figure numbers included.  
+
+- **`{paperID}`**: Refers to the paper from which the figures or simulations are derived:  
 
 ### 📌 Example
 
-A file named: fig1x3x5_18_2.m means it contains MATLAB code to generate Figures 1, 3, and 5 from the paper coded `18.2`.
-
+A file named: **`fig1x3x5_18_2`** means it contains MATLAB code to generate Figures **1**, **3**, and **5** from the paper coded **18.2**.
 
 
 
