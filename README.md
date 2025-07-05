@@ -1,6 +1,6 @@
 # THz-Codes
 
-This repository contains MATLAB-based simulation and analytical models for THz wireless communication systems, featuring outage probability and BER analysis under misalignment fading and molecular absorption loss.
+This repository contains MATLAB-based simulation and analytical models for THz wireless communication systems, featuring outage probability and BER analysis under various channel models.
 
 ---
 
