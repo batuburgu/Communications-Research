@@ -1,6 +1,6 @@
-# THz-Codes
+# Communications Research Repository
 
-This repository contains MATLAB-based simulation and analytical models for THz wireless communication systems, featuring outage probability and BER analysis under various channel models.
+This repository contains MATLAB-based simulation and analytical models for THz wireless communication systems, including various modulation schemes, and provides outage probability and BER analysis under different channel models.
 
 ---
 
