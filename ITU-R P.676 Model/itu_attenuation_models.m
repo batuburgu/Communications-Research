@@ -200,5 +200,3 @@ function [Attenuation_dB] = PositiveSlantPathAttenuation(Oxygen_Attenuation, Wat
 end
 
 
-
-
