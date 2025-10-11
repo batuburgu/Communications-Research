@@ -1,7 +1,7 @@
 % System Parameters
 c = 3*10^8; % Speed of Light (m/s)
-Gt = 1; 
-Gr = 1; 
+Gt = 1; % Transmit Antenna Gain in mW
+Gr = 1; % Receive Antenna Gain in mW
 freq = linspace(270,400,1301); % Frequencies 270 GHz - 400 GHz
 f = freq * 1e9;
 d = [0.1, 1, 5, 10, 100, 500]; % Distance in meters
@@ -28,19 +28,18 @@ g9 = 0.537;
 g10 = 0.0956;
 
 % v parameters
-phi = 1; 
+phi = 0.23; 
 p = 101325; %Pa
 
 % p_w parameters
-q1 = 6.1121;
-q2 = 1.0007;
-q3 = 3.46 * 10^-6;
-q4 = 17.502;
-q5 = 240.97;
+q1 = 6.1115;
+q2 = 23.306;
+q3 = 333.7;
+q4 = 279.82;
 T = 296;
 
 % Molecular Absorbtion Parameters
-p_w = q1 * (q2 + q3 * p) *  exp(q4*T/(q5 + T)); % Buck eq. 1
+p_w = q1 * exp(((q2 - T/q3)*T) / (q4 + T)); % Buck eq. 1
 v = (phi / 100) * p_w/p;
 A = g1 * v * (g2*v + g3);
 B = (g4*v + g5)^2;
@@ -56,7 +55,7 @@ figure;
 hold on;
 
 for di = 1:length(d)
-    L = (c./(4*pi*d(di).*f)).^2 * Gt * Gr ;   
+    L = (c./(4*pi*d(di).*f)).^2 * Gt * Gr .* exp(-d(di).*k_a);   
     L_db = 10*log10(L);
     plot(freq, L_db, 'LineWidth', 2, 'DisplayName', ['d = ' num2str(d(di)) ' m']);
 end
